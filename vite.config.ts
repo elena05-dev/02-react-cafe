@@ -5,7 +5,7 @@ import react from "@vitejs/plugin-react-swc";
 export default defineConfig({
   base: "/02-react-cafe/",
   build: {
-    outDir: "docs",
+    outDir: "dist",
     sourcemap: true,
   },
   plugins: [react()],
